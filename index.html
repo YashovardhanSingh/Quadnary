@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quadnary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <hi class="title">The Quadnary Number System</hi>
+    <div class="tabContainer">
+        <div class="buttonContainer">
+            <!-- <button onclick="showPanel(0, '#f44336')">Quadnary to Text</button> -->
+            <button onclick="showPanel(0, '#2196f3')">Quadnary to Text</button>
+            <button onclick="showPanel(1, '#4caf50')">Text to Quadnary</button>
+            <!-- <button onclick="showPanel(2, '#2196f3')">To Another System</button> -->
+            <!-- <button onclick="showPanel(3, '#ff5722')">Codes</button> -->
+        </div>
+        <div class="tabPanel" id="tab1" class="tab">
+            <textarea name="" id="quadnary1" cols="60" rows="15" placeholder="Quadnary Input..."></textarea>
+            <button class="but" id="get1"> Convert </button>
+            <button class="but" id="reset1"> Reset </button>
+            <button class="but" id="copy1"> Copy </button>
+            <textarea name="" id="text1" cols="60" rows="15" placeholder="Text Output..."></textarea>
+        </div>
+        <div class="tabPanel" id="tab2">
+            <textarea name="" id="text2" cols="60" rows="15" placeholder="Text Input..."></textarea>
+            <button class="but" id="get2"> Convert </button>
+            <button class="but" id="reset2"> Reset </button>
+            <button class="but" id="copy2"> Copy </button>
+            <textarea name="" id="quadnary2" cols="60" rows="15" placeholder="Quadnary Output..."></textarea>
+        </div>
+        <!-- <div class="tabPanel" id="tab3">Tab 3:Content</div> -->
+        <!-- <div class="tabPanel">
+
+        </div> -->
+    </div>
+    <p class='dev'>Developed by - <b>Yashovardhan Singh Rajput</b></p>
+    <script src="script.js"></script>
+</body>
+</html>
